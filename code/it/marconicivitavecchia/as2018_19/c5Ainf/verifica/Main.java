@@ -16,6 +16,10 @@ public class Main extends JFrame {
 		
 		// TODO Usare StringBuilder per costruire la stringa HTML
 		StringBuilder sb = new StringBuilder ("<html>");
+		
+		//titolo della pagina
+		sb.append("<title>verifica</title>");
+		
 		// TODO Creare la stringa HTML per il wireframe
 		sb.append("<h1><b>SSH first aid</b></h1>");
 		sb.append("<div style='display:table'>");
